@@ -12,8 +12,7 @@ Live: [https://audiomass.co](https://audiomass.co)
 3. Run ```go run audiomass-server.go```  -  or if you do not have golang installed, you can use a simple python webserver by running ```python audiomass-server.py```
 4. Navigate to [http://localhost:5055/](http://localhost:5055/) and have fun!
 
-...
-
+...note: if port 5055 is already in use, you can change it at the top of the server file.
 
 
 ---
