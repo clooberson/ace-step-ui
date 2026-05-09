@@ -50,6 +50,8 @@ export const translations = {
 };
 ```
 
+> **Personal note:** When adding new keys, I find it easiest to add the `en` entry first and use it as a placeholder for the other languages (e.g. `yourNewKey: '[TODO] English text'`) until proper translations are ready. This way the app stays functional without crashing.
+
 ## Language Persistence
 
 The selected language is stored in `localStorage` and restored on next visit. Default is English.
@@ -59,3 +61,4 @@ The selected language is stored in `localStorage` and restored on next visit. De
 - All keys must exist in every language object
 - TypeScript's `TranslationKey` type enforces key safety
 - If a key is missing, the raw key name is returned as fallback
+- Run a quick search for `TODO` in `translations.ts` before committing to catch any placeholder translations you forgot to fill in
